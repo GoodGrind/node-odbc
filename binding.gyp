@@ -13,9 +13,7 @@
       'include_dirs': [
         "<!(node -e \"require('nan')\")"
       ],
-      'defines' : [
-        'UNICODE'
-      ],
+      'defines' : [],
       'conditions' : [
         [ 'OS == "linux"', {
           'libraries' : [ 
